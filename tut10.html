@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>float and clear</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+    *{
+        /* border:3px black solid;  */
+         box-sizing: border-box; 
+    }
+    body{
+         font-family: 'Chivo Mono', monospace;
+         background-color: rgb(118, 236, 142);
+    }
+    
+    .items{
+        border:4px black solid;
+        margin:20px 5px 20px 5px;
+        background-color: blanchedalmond;
+    }
+    #container{
+        width:900px ;
+        height: 450px;
+        border:4px rgb(55, 209, 8) solid;
+        margin:auto;
+        background-color: rgb(225, 236, 10);
+    }
+    #fruitpara{
+          float:left;
+          width:23%;
+    }
+    #stationarypara{
+          float:right;
+          width:23%;
+    }
+    #computerpara{
+         clear:intial;
+    }
+    h1{
+        margin:auto;
+        width:455px;
+    }
+    </style>
+</head>
+<body>
+    <div id="container">
+    <h1 id="new">WELCOME TO MY STORE</h1>
+    <div id="fruitpara" class="items">
+        <h1>Fruits</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem dolores quos blanditiis voluptate, dicta illo recusandae laudantium at praesentium consectetur repellat tenetur minus deserunt rerum sint unde? Error laudantium voluptates voluptate excepturi beatae optio.</p>
+    </div>
+    <div id="stationarypara" class="items">
+        <h1>Stationary</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem dolores quos blanditiis voluptate, dicta illo recusandae laudantium at praesentium consectetur repellat tenetur minus deserunt rerum sint unde? Error laudantium voluptates voluptate excepturi beatae optio.</p>
+    </div>
+    <div id="computerpara" class="items">
+        <h1>Computer</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem dolores quos blanditiis voluptate, dicta illo recusandae laudantium at praesentium consectetur repellat tenetur minus deserunt rerum sint unde? Error laudantium voluptates voluptate excepturi beatae optio.</p>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Height width and border</title>
+    <style>
+        #firstpara{
+            background-color:pink;
+            height:100px;
+            width:455px;
+            /* border-width:50px;
+            border-color:blue;
+            border-style:solid; */
+            border: 4px red solid;
+            border-radius:13px;
+        }
+        #secondpara{
+            
+            border:50px red solid;
+            background-color:pink;
+            height: 100px;
+            width:455px;
+            
+            border-top:4px solid purple;
+            border-right:4px solid rgb(0, 128, 51);
+            border-bottom:4px solid rgb(98, 128, 0);
+            border-left:4px solid rgb(128, 21, 0);
+            border-top-left-radius:14px;
+            border-bottom-right-radius:14px;
+        } 
+        #thirdpara{
+            height:300px;
+            width:255px;   
+            background-image: url('https://imgs.search.brave.com/qDCT2uealJzGxHePBiq0u97W2NmrfPzd-y4jFBqOsdw/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC4z/Z0VkMzNLZ3VfNkRN/S281Y1JHRHZBSGFI/YSZwaWQ9QXBp');        
+            border:2px red solid;   
+            background-repeat: no-repeat; /*repeat-x is for x-axis|row and repeat-y is for y-axis|columns*/
+            background-position: center center;  
+            background-color:aqua;    
+        }    
+    </style>
+</head>
+<body>
+    <h1>Border</h1>
+    <p id="firstpara">This is paragraph</p>
+    <h1> 2nd Border</h1>
+    <p id="secondpara">This is 2nd paragraph</p>
+    <h1>This is 3rd heading</h1>
+    <p id ="thirdpara">This is 3rd paragraph</p>
+    
+</body>
+</html>
